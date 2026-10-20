@@ -1,25 +1,26 @@
 {
-  "name": "http-catsAPI-consuming",
+  "name": "tcgapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Consumiendo una API que muestra un gato diferente por cada codigo de error HTTP, junto a datos diversos",
+  "homepage": "https://github.com/carloslobos17/TCG-dexAPI-consuming#readme",
+  "bugs": {
+    "url": "https://github.com/carloslobos17/TCG-dexAPI-consuming/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloslobos17/TCG-dexAPI-consuming.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx electronmon ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "12.14.0",
-      "onFail": "download"
-    }
-  },
-  "packageManager": "pnpm@12.14.0",
-  "type": "module",
   "dependencies": {
-    "electron": "^44.9.0",
+    "bootstrap": "^6.0.0-alpha.1",
+    "electron": "^44.9.2",
     "electronmon": "^2.0.4"
   }
 }
